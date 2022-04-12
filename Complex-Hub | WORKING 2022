@@ -1,8 +1,8 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("UwU-Hub | Made By ComplexSlayers", "Serpent")
+local Window = Library.CreateLib("Complex Hub | Made By ComplexSlayers", "Serpent")
 
-local Tab = Window:NewTab("UwU-Hub Script")
-local Section = Tab:NewSection("Blox Fruit Script's | WOKRING 2022")
+local Tab = Window:NewTab("Complex Script")
+local Section = Tab:NewSection("Blox Fruit Script's | WORKING 2022")
 Section:NewButton("MAKURO-Hub V2 | NEW (FIXED)", "OP Blox Fruit Scripts", function()loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
     print("Clicked")
 end)
