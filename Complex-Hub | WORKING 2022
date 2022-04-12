@@ -1,5 +1,11 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+    Title = "The Troopers Hub";
+    Text = "The Troopers Hub | Made By ComplexSlayers";
+    Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 16;
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Complex Hub | Made By ComplexSlayers", "Midnight")
+local Window = Library.CreateLib("The Troopers Hub | Made By ComplexSlayers", "Ocean")
 
 local Tab = Window:NewTab("Bloxfruit Script 2022")
 local Section = Tab:NewSection("Blox Fruit Script's | WORKING 2022")
@@ -22,6 +28,9 @@ Section:NewButton("Ren-Hub | V2", "OP Blox Fruit Scripts", function()loadstring(
     print("Clicked")
 end)
 Section:NewButton("Ren-Hub | V1", "OP Blox Fruit Scripts", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
+    print("Clicked")
+end)
+Section:NewButton("Hulk-U-Hub", "OP Blox Fruit Scripts", function()loadstring(game:HttpGet"https://raw.githubusercontent.com/HULKUexe/DevilFree-Script/main/HULKUHUB")()
     print("Clicked")
 end)
 Section:NewButton("Ripper-Hub", "OP Blox Fruit Scripts", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/BFMobile.lua'))()
@@ -58,3 +67,6 @@ local Section = Tab:NewSection("Bedwars Script's | WORKING 2022")
 Section:NewButton("Bedwars Script GUI 2022", "OP Bedwars Scripts", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
     print("Clicked")
 end)
+local Tab = Window:NewTab("Credits")
+local Section = Tab:NewSection("@ComplexSlayers")
+local Section = Tab:NewSection("@BedlessCrasher")
